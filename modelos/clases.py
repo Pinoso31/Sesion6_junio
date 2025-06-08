@@ -1,4 +1,4 @@
-class Estuidantes:
+class Estudiantes:
 
     def __init__(self, nombres, apellidos, carrera, promedio):
         self.nombres = nombres
@@ -7,5 +7,5 @@ class Estuidantes:
         self.promedio = promedio
 
         def __str__(self):
-            return f"Datos del estudiante \n Nombre completo: {self.nombres} {self.apellidos} \n Carrera: {self.carrera} \n Promedio : {self.promedio}"
+            return(f"\nDatos del estudiante\nNombre completo: {self.nombres} {self.apellidos} \nCarrera: {self.carrera} \nPromedio: {self.promedio}")
         
