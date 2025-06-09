@@ -23,7 +23,6 @@ def agregar():
     lista.agregar(estudiante)
 
 def mostrar():
-    os.system('cls || clear')
     print("Lista de estudiantes : ")
     for est in lista.mostrar():
         print(est)

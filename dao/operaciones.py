@@ -10,5 +10,4 @@ class EstudianteDao:
         def mostrar(self):
             return self.estudiantes
     
-        def calcular_beca(self):
-            return self.estudiantes
+        
